@@ -1,0 +1,19 @@
+{
+  "name": "thebrain",
+  "version": "0.0.1",
+  "description": "An open innovation platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install && node server.js",
+    "build:js": "echo build:js",
+    "build:css": "echo build:css",
+    "bump_version": "npm version patch",
+    "env": "env"
+  },
+  "dependencies": {
+    "html5shiv": "^3.7.2",
+    "jquery": "^2.1.4",
+    "node-static": "^0.7.6"
+  },
+  "devDependencies": {}
+}
